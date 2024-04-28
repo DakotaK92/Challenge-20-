@@ -1,15 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import searchBooks from "./pages/searchBooks";
-import savedBooks from "./pages/savedBooks";
-import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Switch, Route } from 'react-dom/client';
+import SearchBooks from "./pages/SerachBooks.jsx";
+import SavedBooks from "./pages/SavedBooks.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 // import Apollo Provider
-import { 
+import {
   ApolloClient,
   InMemoryCache,
   ApolloProvider,
-  createHttpLink 
+  createHttpLink,
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 
@@ -22,7 +22,7 @@ const httpLink = createHttpLink({
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem("id_token");
   return {
-    headers : {
+    headers: {
       ...headers,
       authorization: token ? `Bearer ${token}` : "",
     },
@@ -42,9 +42,9 @@ function App() {
         <>
           <Navbar />
           <Switch>
-            <Route exact path = "/" component={searchBooks}/>
-            <Route exact path = "/saved" component={savedBooks}/>
-            <Route render={() => <h1 className="display-2">Wrong page!</h1>}/>
+            <Route exact path= "/" component={SearchBooks} />
+            <Route exact path= "/saved" component={SavedBooks} />
+            <Route render={() => <h1 className="display-2">Wrong page!</h1>} />
           </Switch>
         </>
       </Router>
