@@ -23,3 +23,4 @@ And to deploy the application, run `npm run develop`.
 ## Usage
 
 ## Deployment on GitHub Pages:
+https://dakotak92.github.io/Challenge-21-MERN-Book-Search-Engine/
