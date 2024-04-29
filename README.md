@@ -1,7 +1,7 @@
 # Challenge 20 MERN Book Search Engine
 
 ## Description
-A full-stack Google Books API search engine built with a RESTful API, and refactored to be a GraphQL API with Apollo Server, This application was built using the MERN stack, and the following technologies:
+A full-stack Google Books API search engine built using a GraphQL API with Apollo Server. This application was built using the MERN stack, and the following technologies:
 
 + MongoDB
 + Express.js
