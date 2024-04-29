@@ -16,9 +16,9 @@ A full-stack Google Books API search engine built with a RESTful API, and refact
 + Google Books API
 
 ## Installation
-To start up this application:
-In the root of the folder, in a command line, install all the files with `npm i` \ `npm install`
-And to deploy the application, run `npm run develop`.
+ To start up this application:
+- In the root of the folder, in a command line, install all the files with `npm i` \ `npm install`
+- And to deploy the application, run `npm run develop`.
 
 ## Usage
 
