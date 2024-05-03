@@ -21,6 +21,10 @@ A full-stack Google Books API search engine built using a GraphQL API with Apoll
 - And to deploy the application, run `npm run develop`.
 
 ## Usage
+![Challenge-21-Pic](https://github.com/DakotaK92/Challenge-21-MERN-Book-Search-Engine/assets/46942706/66f558f4-0889-4915-a99a-2966c5ceeb91)
 
 ## Deployment on GitHub Pages:
 https://dakotak92.github.io/Challenge-21-MERN-Book-Search-Engine/
+
+## Deployment on Render:
+
